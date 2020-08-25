@@ -23,7 +23,7 @@ fun main(){
     println(intersect)
 
     //Set kita bisa menambah dan menghapus item namun tak bisa mengubah nilai seperti pada List.
-    var mutableSet = mutableSetOf(1, 2, 4, 2, 1, 5)
+    var mutableSet = integerSet.toMutableSet()
     mutableSet.add(6) // menambah item di akhir set
     mutableSet.remove(1) //menghapus item yang memiliki nilai 1
 }
