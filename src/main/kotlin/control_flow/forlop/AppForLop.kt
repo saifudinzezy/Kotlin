@@ -1,4 +1,4 @@
-package forlop
+package control_flow.forlop
 
 /*For dapat digunakan pada Ranges, Collections, Arrays dan apapun yang menyediakan iterator*/
 fun main(){
