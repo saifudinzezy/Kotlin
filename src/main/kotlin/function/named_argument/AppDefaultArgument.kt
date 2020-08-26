@@ -2,7 +2,7 @@ package function.named_argument
 
 fun main(){
     //menambahkan nilai default untuk argument
-    val fullName = getFullNameDefault()
+    val fullName = getFullNameDefault("Saifudin")
     print(fullName)
 }
 
